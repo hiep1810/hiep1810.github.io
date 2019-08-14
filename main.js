@@ -1,4 +1,4 @@
-const socket = io('http://localhost:8081');
+const socket = io('https://hiep1810.github.io');
 
 const videoElem = document.getElementById("video");
 const videoGuest = document.getElementById("videoGuest");
