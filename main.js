@@ -1,4 +1,4 @@
-const socket = io('https://hiep1810.github.io');
+const socket = io('https://demo-chat-1810.herokuapp.com/');
 
 const videoElem = document.getElementById("video");
 const videoGuest = document.getElementById("videoGuest");
