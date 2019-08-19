@@ -1,4 +1,4 @@
-const socket = io('https://hiep1810.github.io');
+const socket = io('https://demo-chat-1810.herokuapp.com/');
 
 const videoElem = document.getElementById("video");
 const videoGuest = document.getElementById("videoGuest");
@@ -56,7 +56,7 @@ function dumpOptionsInfo() {
 
 }
 
-const peer = new Peer({key:'lwjd5qra8257b9'});
+const peer = new Peer();
 
 peer.on('open',id=>$("#id-peer").append(id));
 
